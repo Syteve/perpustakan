@@ -1,4 +1,11 @@
 {
+    "scripts": {
+        "home": "npx tailwindcss -i ./css/input.css -o ./css/home.css --watch",
+        "login": "npx tailwindcss -i ./css/input.css -o ./css/login.css --watch",
+        "register": "npx tailwindcss -i ./css/input.css -o ./css/register.css --watch",
+        "dashboard": "npx tailwindcss -i ./css/input.css -o ./css/dashboard.css --watch",
+        "listbuku": "npx tailwindcss -i ./css/input.css -o ./css/listbuku.css --watch"
+    },
     "dependencies": {
         "tailwindcss": "3.2.1"
     }
